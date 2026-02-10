@@ -9,7 +9,6 @@ import Funfacts from "@/components/sections/home1/Funfacts"
 import Roofer from "@/components/sections/home1/Roofer"
 import Portfolio from "@/components/sections/home1/Portfolio"
 import News from "@/components/sections/home1/News"
-import Brand from "@/components/sections/home1/Brand"
 import Testimonial from "@/components/sections/home1/Testimonial"
 import Workprocess from "@/components/sections/home1/Workprocess"
 
@@ -36,7 +35,6 @@ export default function Home() {
                 <Funfacts />
                 <Roofer />
                 <Workprocess />
-                <Brand />
                 <Portfolio />
                 <Testimonial />
 
