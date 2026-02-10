@@ -1,12 +1,16 @@
 import "@/node_modules/react-modal-video/css/modal-video.css"
 import "../public/assets/css/style.css"
 import 'swiper/css'
-// import "swiper/css/navigation"
+import "swiper/css/navigation"
 import "swiper/css/pagination"
 // import 'owl.carousel'
 import 'swiper/css/free-mode';
 import { inter, roboto } from '@/lib/font'
 export const metadata = {
+    metadataBase: new URL('https://www.ebroofingma.net'),
+    alternates: {
+        canonical: './',
+    },
     title: 'E&B Roofing',
     description: 'E&B Roofing - Where Performance Meets Quality',
     icons: {

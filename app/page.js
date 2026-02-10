@@ -13,7 +13,17 @@ import Brand from "@/components/sections/home1/Brand"
 import Testimonial from "@/components/sections/home1/Testimonial"
 import Workprocess from "@/components/sections/home1/Workprocess"
 
+
+export const metadata = {
+    title: 'Roofing, Siding & Windows in MA & RI | E&B Roofing',
+    description: 'Premier roofing, siding, and window contractor serving Massachusetts and Rhode Island. Licensed, insured, and experienced.',
+    alternates: {
+        canonical: './',
+    },
+};
+
 export default function Home() {
+
 
     return (
         <>

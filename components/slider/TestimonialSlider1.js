@@ -119,52 +119,52 @@ export default function TestimonialSlider1() {
 
     return (
         <>
+
             <Swiper {...swiperOptions} className="theme_carousel owl-theme">
-                <div className="swiper-wrapper">
-                    {reviews.map((review, index) => (
-                        <SwiperSlide key={index} className="slide">
-                            <div className="swiper-slide testimonials__block__one">
-                                <div className="testimonials__info">
-                                    <div className="authore__img">
-                                        <figure className="image">
-                                            <img
-                                                src={review.profile_photo_url || "assets/images/resource/author-01.png"}
-                                                alt={review.author_name}
-                                                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                                            />
-                                        </figure>
-                                    </div>
-                                    <div className="testimonials__text">
-                                        <p>
-                                            {review.text.length > 180
-                                                ? review.text.substring(0, 180) + "..."
-                                                : review.text}
-                                        </p>
-                                    </div>
-                                    <div className="authore__info">
-                                        <h5>{review.author_name}</h5>
-                                        <p>{review.relative_time_description}</p>
-                                        <div className="test__rating" style={{ marginTop: '10px' }}>
-                                            <ul style={{ display: 'flex', gap: '5px', padding: 0, listStyle: 'none' }}>
-                                                {[...Array(5)].map((_, i) => (
-                                                    <li key={i}>
-                                                        <svg width="18" height="110" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z" fill="#FFAA00" />
-                                                        </svg>
-                                                    </li>
-                                                ))}
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div className="quote">
-                                        <span className="icon-22" />
+                {reviews.map((review, index) => (
+                    <SwiperSlide key={index} className="slide">
+                        <div className="swiper-slide testimonials__block__one">
+                            <div className="testimonials__info">
+                                <div className="authore__img">
+                                    <figure className="image">
+                                        <img
+                                            src={review.profile_photo_url || "assets/images/resource/author-01.png"}
+                                            alt={review.author_name}
+                                            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                        />
+                                    </figure>
+                                </div>
+                                <div className="testimonials__text">
+                                    <p>
+                                        {review.text.length > 180
+                                            ? review.text.substring(0, 180) + "..."
+                                            : review.text}
+                                    </p>
+                                </div>
+                                <div className="authore__info">
+                                    <h5>{review.author_name}</h5>
+                                    <p>{review.relative_time_description}</p>
+                                    <div className="test__rating" style={{ marginTop: '10px' }}>
+                                        <ul style={{ display: 'flex', gap: '5px', padding: 0, listStyle: 'none' }}>
+                                            {[...Array(5)].map((_, i) => (
+                                                <li key={i}>
+                                                    <svg width="18" height="110" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z" fill="#FFAA00" />
+                                                    </svg>
+                                                </li>
+                                            ))}
+                                        </ul>
                                     </div>
                                 </div>
+                                <div className="quote">
+                                    <span className="icon-22" />
+                                </div>
                             </div>
-                        </SwiperSlide>
-                    ))}
-                </div>
+                        </div>
+                    </SwiperSlide>
+                ))}
             </Swiper>
+
         </>
     )
 }
