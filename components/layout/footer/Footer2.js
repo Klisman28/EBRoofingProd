@@ -166,7 +166,7 @@ export default function Footer2() {
                                                             <div className="image__box">
                                                                 <Link href="https://www.instagram.com/e_broofing/">
                                                                     <img
-                                                                        src="assets/images/resource/instagram0.JPG"
+                                                                        src="assets/images/resource/instagram0.jpg"
                                                                         alt=""
                                                                         style={{ width: 150, height: 150, objectFit: "cover", display: "block" }}
 
@@ -180,7 +180,7 @@ export default function Footer2() {
                                                             <div className="image__box">
                                                                 <Link href="https://www.instagram.com/e_broofing/">
                                                                     <img
-                                                                        src="assets/images/resource/instagram1.JPG"
+                                                                        src="assets/images/resource/instagram1.jpg"
                                                                         alt=""
                                                                         style={{ width: 150, height: 150, objectFit: "cover", display: "block" }}
 
@@ -194,7 +194,7 @@ export default function Footer2() {
                                                             <div className="image__box">
                                                                 <Link href="https://www.instagram.com/e_broofing/">
                                                                     <img
-                                                                        src="assets/images/resource/instagram3.JPG"
+                                                                        src="assets/images/resource/instagram3.jpg"
                                                                         alt=""
                                                                         style={{ width: 150, height: 150, objectFit: "cover", display: "block" }}
 
@@ -208,7 +208,7 @@ export default function Footer2() {
                                                             <div className="image__box">
                                                                 <Link href="https://www.instagram.com/e_broofing/">
                                                                     <img
-                                                                        src="assets/images/resource/instagram4.JPG"
+                                                                        src="assets/images/resource/instagram4.jpg"
                                                                         alt=""
                                                                         style={{ width: 150, height: 150, objectFit: "cover", display: "block" }}
 
@@ -222,7 +222,7 @@ export default function Footer2() {
                                                             <div className="image__box">
                                                                 <Link href="https://www.instagram.com/e_broofing/">
                                                                     <img
-                                                                        src="assets/images/resource/instagram5.JPG"
+                                                                        src="assets/images/resource/instagram5.jpg"
                                                                         alt=""
                                                                         style={{ width: 150, height: 150, objectFit: "cover", display: "block" }}
 
@@ -236,7 +236,7 @@ export default function Footer2() {
                                                             <div className="image__box">
                                                                 <Link href="https://www.instagram.com/e_broofing/">
                                                                     <img
-                                                                        src="assets/images/resource/instagram6.JPG"
+                                                                        src="assets/images/resource/instagram6.jpg"
                                                                         alt=""
                                                                         style={{ width: 150, height: 150, objectFit: "cover", display: "block" }}
 

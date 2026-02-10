@@ -60,12 +60,12 @@ export default function TestimonialSlider0() {
                     <div className="portfolio__block__one">
                         <div className="inner-box">
                             <figure className="image-box">
-                                <img src="assets/images/resource/eb_roofing.JPG" alt="" />
+                                <img src="assets/images/resource/eb_roofing.jpg" alt="" />
                             </figure>
                             <div className="lower__content">
                                 <div className="view-btn">
                                     <Link
-                                        href="assets/images/resource/eb_roofing.JPG"
+                                        href="assets/images/resource/eb_roofing.jpg"
                                         className="lightbox-image"
                                         data-fancybox="gallery"
                                     >
@@ -86,12 +86,12 @@ export default function TestimonialSlider0() {
                     <div className="portfolio__block__one">
                         <div className="inner-box">
                             <figure className="image-box">
-                                <img src="assets/images/resource/ebroofgin2.JPG" alt="" />
+                                <img src="assets/images/resource/ebroofgin2.jpg" alt="" />
                             </figure>
                             <div className="lower__content">
                                 <div className="view-btn">
                                     <Link
-                                        href="assets/images/resource/ebroofgin2.JPG"
+                                        href="assets/images/resource/ebroofgin2.jpg"
                                         className="lightbox-image"
                                         data-fancybox="gallery"
                                     >
@@ -112,12 +112,12 @@ export default function TestimonialSlider0() {
                     <div className="portfolio__block__one">
                         <div className="inner-box">
                             <figure className="image-box">
-                                <img src="assets/images/resource/ebroofing3.JPG" alt="" />
+                                <img src="assets/images/resource/ebroofing3.jpg" alt="" />
                             </figure>
                             <div className="lower__content">
                                 <div className="view-btn">
                                     <Link
-                                        href="assets/images/resource/ebroofing3.JPG"
+                                        href="assets/images/resource/ebroofing3.jpg"
                                         className="lightbox-image"
                                         data-fancybox="gallery"
                                     >
@@ -138,12 +138,12 @@ export default function TestimonialSlider0() {
                     <div className="portfolio__block__one">
                         <div className="inner-box">
                             <figure className="image-box">
-                                <img src="assets/images/resource/ebroofing4.JPG" alt="" />
+                                <img src="assets/images/resource/ebroofing4.jpg" alt="" />
                             </figure>
                             <div className="lower__content">
                                 <div className="view-btn">
                                     <Link
-                                        href="assets/images/resource/ebroofing4.JPG"
+                                        href="assets/images/resource/ebroofing4.jpg"
                                         className="lightbox-image"
                                         data-fancybox="gallery"
                                     >
@@ -164,12 +164,12 @@ export default function TestimonialSlider0() {
                     <div className="portfolio__block__one">
                         <div className="inner-box">
                             <figure className="image-box">
-                                <img src="assets/images/resource/ebroofing5.JPG" alt="" />
+                                <img src="assets/images/resource/ebroofing5.jpg" alt="" />
                             </figure>
                             <div className="lower__content">
                                 <div className="view-btn">
                                     <Link
-                                        href="assets/images/resource/ebroofing5.JPG"
+                                        href="assets/images/resource/ebroofing5.jpg"
                                         className="lightbox-image"
                                         data-fancybox="gallery"
                                     >
@@ -190,12 +190,12 @@ export default function TestimonialSlider0() {
                     <div className="portfolio__block__one">
                         <div className="inner-box">
                             <figure className="image-box">
-                                <img src="assets/images/resource/ebroofing6.JPG" alt="" />
+                                <img src="assets/images/resource/ebroofing6.jpg" alt="" />
                             </figure>
                             <div className="lower__content">
                                 <div className="view-btn">
                                     <Link
-                                        href="assets/images/resource/ebroofing6.JPG"
+                                        href="assets/images/resource/ebroofing6.jpg"
                                         className="lightbox-image"
                                         data-fancybox="gallery"
                                     >
@@ -216,12 +216,12 @@ export default function TestimonialSlider0() {
                     <div className="portfolio__block__one">
                         <div className="inner-box">
                             <figure className="image-box">
-                                <img src="assets/images/resource/ebroofing7.JPG" alt="" />
+                                <img src="assets/images/resource/ebroofing7.jpg" alt="" />
                             </figure>
                             <div className="lower__content">
                                 <div className="view-btn">
                                     <Link
-                                        href="assets/images/resource/ebroofing7.JPG"
+                                        href="assets/images/resource/ebroofing7.jpg"
                                         className="lightbox-image"
                                         data-fancybox="gallery"
                                     >
@@ -242,12 +242,12 @@ export default function TestimonialSlider0() {
                     <div className="portfolio__block__one">
                         <div className="inner-box">
                             <figure className="image-box">
-                                <img src="assets/images/resource/ebroofing8.JPG" alt="" />
+                                <img src="assets/images/resource/ebroofing8.jpg" alt="" />
                             </figure>
                             <div className="lower__content">
                                 <div className="view-btn">
                                     <Link
-                                        href="assets/images/resource/ebroofing8.JPG"
+                                        href="assets/images/resource/ebroofing8.jpg"
                                         className="lightbox-image"
                                         data-fancybox="gallery"
                                     >

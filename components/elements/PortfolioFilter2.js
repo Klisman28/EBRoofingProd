@@ -61,12 +61,12 @@ export default function PortfolioFilter2() {
                     <div className="portfolio__block__one">
                         <div className="inner-box">
                             <figure className="image-box">
-                                <img src="assets/images/resource/roof-replacement-pawtucket-ri.JPG" alt="Residential Roof Replacement" />
+                                <img src="assets/images/resource/roof-replacement-pawtucket-ri.jpg" alt="Residential Roof Replacement" />
                             </figure>
                             <div className="lower__content">
                                 <div className="view-btn">
                                     <Link
-                                        href="assets/images/resource/roof-replacement-pawtucket-ri.JPG"
+                                        href="assets/images/resource/roof-replacement-pawtucket-ri.jpg"
                                         className="lightbox-image"
                                         data-fancybox="gallery"
                                     >
@@ -115,12 +115,12 @@ export default function PortfolioFilter2() {
                     <div className="portfolio__block__one">
                         <div className="inner-box">
                             <figure className="image-box">
-                                <img src="assets/images/resource/new-roof-installation-eb-roofing.JPG" alt="New Roof Installation" />
+                                <img src="assets/images/resource/new-roof-installation-eb-roofing.jpg" alt="New Roof Installation" />
                             </figure>
                             <div className="lower__content">
                                 <div className="view-btn">
                                     <Link
-                                        href="assets/images/resource/new-roof-installation-eb-roofing.JPG"
+                                        href="assets/images/resource/new-roof-installation-eb-roofing.jpg"
                                         className="lightbox-image"
                                         data-fancybox="gallery"
                                     >
@@ -142,12 +142,12 @@ export default function PortfolioFilter2() {
                     <div className="portfolio__block__one">
                         <div className="inner-box">
                             <figure className="image-box">
-                                <img src="assets/images/resource/siding-windows-home-attleboro-ma.JPG" alt="Vinyl Siding Installation" />
+                                <img src="assets/images/resource/siding-windows-home-attleboro-ma.jpg" alt="Vinyl Siding Installation" />
                             </figure>
                             <div className="lower__content">
                                 <div className="view-btn">
                                     <Link
-                                        href="assets/images/resource/siding-windows-home-attleboro-ma.JPG"
+                                        href="assets/images/resource/siding-windows-home-attleboro-ma.jpg"
                                         className="lightbox-image"
                                         data-fancybox="gallery"
                                     >
@@ -169,12 +169,12 @@ export default function PortfolioFilter2() {
                     <div className="portfolio__block__one">
                         <div className="inner-box">
                             <figure className="image-box">
-                                <img src="assets/images/resource/ebroofing3.JPG" alt="Asphalt Shingle Renewal" />
+                                <img src="assets/images/resource/ebroofing3.jpg" alt="Asphalt Shingle Renewal" />
                             </figure>
                             <div className="lower__content">
                                 <div className="view-btn">
                                     <Link
-                                        href="assets/images/resource/ebroofing3.JPG"
+                                        href="assets/images/resource/ebroofing3.jpg"
                                         className="lightbox-image"
                                         data-fancybox="gallery"
                                     >
