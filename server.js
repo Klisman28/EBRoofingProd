@@ -3,19 +3,17 @@ const { parse } = require('url')
 const next = require('next')
 
 const dev = process.env.NODE_ENV !== 'production'
-const hostname = 'localhost'
+// Change from 'localhost' to '0.0.0.0' to bind to all interfaces
+const hostname = '0.0.0.0'
 const port = process.env.PORT || 3000
-// when using middleware `hostname` and `port` must be provided below
+
 const app = next({ dev, hostname, port })
 const handle = app.getRequestHandler()
 
 app.prepare().then(() => {
     createServer(async (req, res) => {
         try {
-            // Be sure to pass `true` as the second argument to `url.parse`.
-            // This tells it to parse the query portion of the URL.
             const parsedUrl = parse(req.url, true)
-
             await handle(req, res, parsedUrl)
         } catch (err) {
             console.error('Error occurred handling', req.url, err)

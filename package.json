@@ -6,7 +6,7 @@
     "clean": "node scripts/clean.js",
     "dev": "next dev",
     "build": "next build",
-    "start": "node server.js",
+    "start": "next start",
     "lint": "next lint",
     "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css",
     "check-links": "npx linkinator http://localhost:3000 --recurse --skip \"^(?!http://localhost)\"",
