@@ -26,8 +26,8 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
               <div className="header_right_info">
                 <ul className="top_right">
                   <li className="login__border" style={{ fontSize: '13px' }}>
-                    <Link href="/login">     🛡️ Licensed &amp; Insured · MA HIC #212610 · RI Reg. #GC-47693
-                    </Link>
+                    <span style={{ color: "white" }}>     🛡️ Licensed &amp; Insured · MA HIC #212610 · RI Reg. #GC-47693
+                    </span>
 
 
                   </li>

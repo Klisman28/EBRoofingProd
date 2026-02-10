@@ -104,12 +104,17 @@ export default function Footer2() {
                                             </div>
                                             <div className="widget_content">
                                                 <ul className="links_list clearfix">
+
                                                     <li><Link href="/">Home</Link></li>
                                                     <li><Link href="/about">About</Link></li>
                                                     <li><Link href="/services">Roofing Services</Link></li>
                                                     <li><Link href="/project-2">Our Work</Link></li>
                                                     <li><Link href="/testimonial-2">Review</Link></li>
                                                     <li><Link href="/contact">Contact</Link></li>
+                                                    <li><Link href="/privacy-policy">Privacy Policy</Link></li>
+                                                    <li><Link href="/terms">Terms of Service</Link></li>
+                                                    <li><Link href="/accessibility">Accessibility</Link></li>
+
                                                 </ul>
                                             </div>
                                         </div>
@@ -161,7 +166,7 @@ export default function Footer2() {
                                                             <div className="image__box">
                                                                 <Link href="https://www.instagram.com/e_broofing/">
                                                                     <img
-                                                                        src="assets/images/resource/instagram0.jpg"
+                                                                        src="assets/images/resource/instagram0.JPG"
                                                                         alt=""
                                                                         style={{ width: 150, height: 150, objectFit: "cover", display: "block" }}
 
@@ -175,7 +180,7 @@ export default function Footer2() {
                                                             <div className="image__box">
                                                                 <Link href="https://www.instagram.com/e_broofing/">
                                                                     <img
-                                                                        src="assets/images/resource/instagram1.jpg"
+                                                                        src="assets/images/resource/instagram1.JPG"
                                                                         alt=""
                                                                         style={{ width: 150, height: 150, objectFit: "cover", display: "block" }}
 
@@ -189,7 +194,7 @@ export default function Footer2() {
                                                             <div className="image__box">
                                                                 <Link href="https://www.instagram.com/e_broofing/">
                                                                     <img
-                                                                        src="assets/images/resource/instagram3.jpg"
+                                                                        src="assets/images/resource/instagram3.JPG"
                                                                         alt=""
                                                                         style={{ width: 150, height: 150, objectFit: "cover", display: "block" }}
 
@@ -203,7 +208,7 @@ export default function Footer2() {
                                                             <div className="image__box">
                                                                 <Link href="https://www.instagram.com/e_broofing/">
                                                                     <img
-                                                                        src="assets/images/resource/instagram4.jpg"
+                                                                        src="assets/images/resource/instagram4.JPG"
                                                                         alt=""
                                                                         style={{ width: 150, height: 150, objectFit: "cover", display: "block" }}
 
@@ -217,7 +222,7 @@ export default function Footer2() {
                                                             <div className="image__box">
                                                                 <Link href="https://www.instagram.com/e_broofing/">
                                                                     <img
-                                                                        src="assets/images/resource/instagram5.jpg"
+                                                                        src="assets/images/resource/instagram5.JPG"
                                                                         alt=""
                                                                         style={{ width: 150, height: 150, objectFit: "cover", display: "block" }}
 
@@ -231,7 +236,7 @@ export default function Footer2() {
                                                             <div className="image__box">
                                                                 <Link href="https://www.instagram.com/e_broofing/">
                                                                     <img
-                                                                        src="assets/images/resource/instagram6.jpg"
+                                                                        src="assets/images/resource/instagram6.JPG"
                                                                         alt=""
                                                                         style={{ width: 150, height: 150, objectFit: "cover", display: "block" }}
 

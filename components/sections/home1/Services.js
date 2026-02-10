@@ -82,7 +82,7 @@ export default function Services() {
                                                     <div className="tab__left__content">
                                                         <figure className="image">
                                                             <img
-                                                                src="assets/images/service/roofing_services.jpg"
+                                                                src="assets/images/service/roofing_services.JPG"
                                                                 alt=""
                                                             />
                                                         </figure>
@@ -112,7 +112,7 @@ export default function Services() {
                                                             </ul>
                                                         </div>
                                                         <div className="tab__btn">
-                                                            <Link className="btn-one two" href="/service">
+                                                            <Link className="btn-one two" href="/services">
                                                                 <em>
                                                                     <i />
                                                                     <i />
@@ -135,7 +135,7 @@ export default function Services() {
                                                     <div className="tab__left__content">
                                                         <figure className="image">
                                                             <img
-                                                                src="assets/images/service/siding_installation.jpg"
+                                                                src="assets/images/service/siding_installation.JPG"
                                                                 alt=""
                                                             />
                                                         </figure>
@@ -165,7 +165,7 @@ export default function Services() {
                                                             </ul>
                                                         </div>
                                                         <div className="tab__btn">
-                                                            <Link className="btn-one" href="/service">
+                                                            <Link className="btn-one" href="/services">
                                                                 <em>
                                                                     <i />
                                                                     <i />
@@ -188,7 +188,7 @@ export default function Services() {
                                                     <div className="tab__left__content">
                                                         <figure className="image">
                                                             <img
-                                                                src="assets/images/service/windwo_replacement.jpg"
+                                                                src="assets/images/service/windwo_replacement.JPG"
                                                                 alt=""
                                                             />
                                                         </figure>
@@ -218,7 +218,7 @@ export default function Services() {
                                                             </ul>
                                                         </div>
                                                         <div className="tab__btn">
-                                                            <Link className="btn-one" href="/service">
+                                                            <Link className="btn-one" href="/services">
                                                                 <em>
                                                                     <i />
                                                                     <i />
@@ -241,7 +241,7 @@ export default function Services() {
                                                     <div className="tab__left__content">
                                                         <figure className="image">
                                                             <img
-                                                                src="assets/images/service/Skylights&Chimneys.jpg"
+                                                                src="assets/images/service/Skylights&Chimneys.JPG"
                                                                 alt=""
                                                             />
                                                         </figure>
@@ -271,7 +271,7 @@ export default function Services() {
                                                             </ul>
                                                         </div>
                                                         <div className="tab__btn">
-                                                            <Link className="btn-one" href="/service">
+                                                            <Link className="btn-one" href="/services">
                                                                 <em>
                                                                     <i />
                                                                     <i />

@@ -19,7 +19,7 @@ export default function ServicesContent() {
                                             <div className="inner__box">
                                                 <div className="image__box">
                                                     <figure className="image">
-                                                        <Link href="/service-details"><img src="assets/images/service/roofing_services.jpg" alt="" /></Link>
+                                                        <Link href="/services-details"><img src="assets/images/service/roofing_services.jpg" alt="" /></Link>
                                                     </figure>
                                                 </div>
                                                 <div className="lower__content">
@@ -32,7 +32,7 @@ export default function ServicesContent() {
                                                         </div>
                                                     </div>
                                                     <div className="service__title">
-                                                        <h4> <Link href="/service-details"> Roofing Services </Link></h4>
+                                                        <h4> <Link href="/services-details"> Roofing Services </Link></h4>
                                                     </div>
                                                     <div className="service__text">
                                                         <p>From complete asphalt shingle roof replacements to emergency leak repairs and tarping (24/7). We provide free, honest inspections.</p>
@@ -47,7 +47,7 @@ export default function ServicesContent() {
                                             <div className="inner__box">
                                                 <div className="image__box">
                                                     <figure className="image">
-                                                        <Link href="/service-details"><img src="assets/images/service/siding_installation.jpg" alt="" /></Link>
+                                                        <Link href="/services-details"><img src="assets/images/service/siding_installation.jpg" alt="" /></Link>
                                                     </figure>
                                                 </div>
                                                 <div className="lower__content">
@@ -60,7 +60,7 @@ export default function ServicesContent() {
                                                         </div>
                                                     </div>
                                                     <div className="service__title">
-                                                        <h4> <Link href="/service-details"> Siding Installation </Link></h4>
+                                                        <h4> <Link href="/services-details"> Siding Installation </Link></h4>
                                                     </div>
                                                     <div className="service__text">
                                                         <p>Transform your home's appearance and energy efficiency with high-quality vinyl siding and exterior cladding solutions.</p>
@@ -75,7 +75,7 @@ export default function ServicesContent() {
                                             <div className="inner__box">
                                                 <div className="image__box">
                                                     <figure className="image">
-                                                        <Link href="/service-details"><img src="assets/images/service/windwo_replacement.jpg" alt="" /></Link>
+                                                        <Link href="/services-details"><img src="assets/images/service/windwo_replacement.jpg" alt="" /></Link>
                                                     </figure>
                                                 </div>
                                                 <div className="lower__content" >
@@ -88,7 +88,7 @@ export default function ServicesContent() {
                                                         </div>
                                                     </div>
                                                     <div className="service__title">
-                                                        <h4> <Link href="/service-details"> Window Replacement </Link></h4>
+                                                        <h4> <Link href="/services-details"> Window Replacement </Link></h4>
                                                     </div>
                                                     <div className="service__text">
                                                         <p>Upgrade to energy-efficient replacement windows. Professional installation that improves home comfort and lowers potential energy bills.</p>
@@ -103,7 +103,7 @@ export default function ServicesContent() {
                                             <div className="inner__box">
                                                 <div className="image__box">
                                                     <figure className="image">
-                                                        <Link href="/service-details"><img src="assets/images/service/Gutters&Guards.jpg" alt="" /></Link>
+                                                        <Link href="/services-details"><img src="assets/images/service/Gutters&Guards.jpg" alt="" /></Link>
                                                     </figure>
                                                 </div>
                                                 <div className="lower__content">
@@ -116,7 +116,7 @@ export default function ServicesContent() {
                                                         </div>
                                                     </div>
                                                     <div className="service__title">
-                                                        <h4> <Link href="/service-details"> Gutters & Guards </Link></h4>
+                                                        <h4> <Link href="/services-details"> Gutters & Guards </Link></h4>
                                                     </div>
                                                     <div className="service__text">
                                                         <p>Protect your foundation with seamless gutters and gutter guards. We handle installation, repair, and cleaning.</p>
@@ -131,7 +131,7 @@ export default function ServicesContent() {
                                             <div className="inner__box">
                                                 <div className="image__box">
                                                     <figure className="image">
-                                                        <Link href="/service-details"><img src="assets/images/service/Skylights&Chimneys.jpg" alt="" /></Link>
+                                                        <Link href="/services-details"><img src="assets/images/service/Skylights&Chimneys.jpg" alt="" /></Link>
                                                     </figure>
                                                 </div>
                                                 <div className="lower__content">
@@ -144,7 +144,7 @@ export default function ServicesContent() {
                                                         </div>
                                                     </div>
                                                     <div className="service__title">
-                                                        <h4> <Link href="/service-details"> Skylights & Chimneys </Link></h4>
+                                                        <h4> <Link href="/services-details"> Skylights & Chimneys </Link></h4>
                                                     </div>
                                                     <div className="service__text">
                                                         <p>Expert installation and repair for skylights and chimneys. We fix leaks, replace flashing, and ensure proper sealing.</p>
@@ -159,7 +159,7 @@ export default function ServicesContent() {
                                             <div className="inner__box">
                                                 <div className="image__box">
                                                     <figure className="image">
-                                                        <Link href="/service-details"><img src="assets/images/service/Exterior_painting.jpg" alt="" /></Link>
+                                                        <Link href="/services-details"><img src="assets/images/service/Exterior_painting.jpg" alt="" /></Link>
                                                     </figure>
                                                 </div>
                                                 <div className="lower__content" >
@@ -172,7 +172,7 @@ export default function ServicesContent() {
                                                         </div>
                                                     </div>
                                                     <div className="service__title">
-                                                        <h4> <Link href="/service-details">Exterior Painting </Link></h4>
+                                                        <h4> <Link href="/services-details">Exterior Painting </Link></h4>
                                                     </div>
                                                     <div className="service__text">
                                                         <p>Revitalize your property with professional exterior painting. We cover trim work, siding painting, and detail finishing.</p>

@@ -82,28 +82,13 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                     <div className="social-links">
                         <ul className="clearfix">
                             <li>
-                                <Link href="/">
-                                    <span className="fab fa-twitter" />
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/">
+                                <Link href="https://www.facebook.com/ebroofingusa">
                                     <span className="fab fa-facebook-square" />
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/">
-                                    <span className="fab fa-pinterest-p" />
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/">
+                                <Link href="https://www.instagram.com/e_broofing/">
                                     <span className="fab fa-instagram" />
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/">
-                                    <span className="fab fa-youtube" />
                                 </Link>
                             </li>
                         </ul>

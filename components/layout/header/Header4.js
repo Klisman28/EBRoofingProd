@@ -52,7 +52,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isSide
                 </div>
                 <div className="header-right_buttom">
                   <div className="btns-box">
-                    <Link className="btn-four" href="/">
+                    <Link className="btn-four" href="/contact">
                       {" "}
                       Free Estimate{" "}
                     </Link>
