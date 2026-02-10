@@ -17,7 +17,7 @@
     "node": ">=18"
   },
   "dependencies": {
-    "@thednp/dommatrix": "^2.0.6",
+    "@thednp/dommatrix": "^2.0.11",
     "bootstrap-touchspin": "^4.7.3",
     "isotope-layout": "^3.0.6",
     "lightgallery": "^2.7.2",
