@@ -295,10 +295,10 @@ export default function Home() {
                                                         </div>
                                                         <div className="col-lg-6 col-md-12 ps-xl-4">
                                                             <div className="tab__right__content">
-                                                                <h4>Growing to Serve All Rhode Island & Southeastern MA</h4>
+                                                                <h4>Growing to Serve All Massachusetts & Rhode Island </h4>
                                                                 <div className="tab__text">
                                                                     <p>
-                                                                        With a larger team and more equipment, we began serving homeowners and businesses across all of Rhode Island and Southeastern Massachusetts. Drone inspections, better safety practices and a dedicated project manager on each job helped us deliver faster, more efficient projects without sacrificing quality.
+                                                                        With a larger team and more equipment, we began serving homeowners and businesses across all of Massachusetts and Rhode Island. Drone inspections, better safety practices and a dedicated project manager on each job helped us deliver faster, more efficient projects without sacrificing quality.
 
                                                                     </p>
                                                                 </div>
@@ -605,7 +605,7 @@ export default function Home() {
 
                                                                 </li>
                                                                 <li>
-                                                                    <span className="icon-41" />Over 15 years serving Rhode Island & Southeastern Massachusetts                                          </li>
+                                                                    <span className="icon-41" />Over 15 years serving Massachusetts & Rhode Island                                          </li>
                                                                 <li>
                                                                 </li>
                                                             </ul>

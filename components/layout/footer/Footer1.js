@@ -55,8 +55,8 @@ export default function Footer1() {
                                                 <ul className="contact_list">
                                                     {/* Intro */}
                                                     <li className="contact_intro">
-                                                        Based in <strong>Pawtucket, RI</strong>. Serving homeowners and businesses across
-                                                        <strong> Rhode Island</strong> & <strong>Southeastern Massachusetts</strong>.
+                                                        Based in <strong>Attleboro MA</strong>. Serving homeowners and businesses across
+                                                        <strong> Massachusetts</strong> & <strong>Rhode Island</strong>.
                                                     </li>
 
                                                     {/* Service area */}

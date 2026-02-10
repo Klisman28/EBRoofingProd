@@ -63,14 +63,14 @@ export default function Banner() {
                           <h6>Over 15 years of experience </h6>
                         </div>
                         <h1>
-                          ROOFING CONTRACTOR IN <span>SOUTHEASTERN MA & RHODE ISLAND </span>
+                          ROOFING CONTRACTOR IN <span>MASSACHUSETTS & RHODE ISLAND </span>
                         </h1>
                         <p>
                           At <strong>E&amp;B ROOFING LLC</strong>, we provide professional roof replacement and roof repair for homes and businesses in Pawtucket, Cranston, East Providence, Attleboro and surrounding areas.
                         </p>
 
                         <div className="btn-box">
-                          <Link href="/" className="btn-two">
+                          <Link href="/contact" className="btn-two">
                             GET A FREE ESTIMATE
                           </Link>
                         </div>
@@ -114,7 +114,7 @@ export default function Banner() {
                           Our certified team delivers clean, on-time work and strong manufacturer warranties.
                         </p>
                         <div className="btn-box">
-                          <Link href="/" className="btn-two">
+                          <Link href="/contact" className="btn-two">
                             GET A FREE ESTIMATE
                           </Link>
                         </div>
@@ -155,7 +155,7 @@ export default function Banner() {
                           &amp; <span>TARPING SERVICE</span>
                         </h1>
                         <p>
-                          Fast response for roof leaks, wind and hail damage across Southeastern Massachusetts and Rhode Island. We document the damage and coordinate with your insurance company so you can protect your property quickly.
+                          Fast response for roof leaks, wind and hail damage across Massachusetts and Rhode Island. We document the damage and coordinate with your insurance company so you can protect your property quickly.
                         </p>
                         <div className="btn-box">
                           <Link href="tel:+774-300-1932" className="btn-two">

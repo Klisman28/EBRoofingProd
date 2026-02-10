@@ -98,7 +98,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                 </div> */}
                 <div className="header-right_buttom">
                   <div className="btns-box">
-                    <Link className="btn-one" href="/">
+                    <Link className="btn-one" href="/contact">
                       <em>
                         <i />
                         <i />
