@@ -14,7 +14,7 @@ export const metadata = {
     title: 'E&B Roofing',
     description: 'E&B Roofing - Where Performance Meets Quality',
     icons: {
-        icon: 'assets/images/logo.png',
+        icon: '/assets/images/fav-icon.png',
     },
 }
 
