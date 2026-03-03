@@ -73,7 +73,7 @@ export default function TestimonialSlider0() {
                                     </Link>
                                 </div>
                                 <div className="portfolio__block">
-                                    <span>Residential</span>
+                                    <span>Residential — Attleboro, MA</span>
                                     <h4>
                                         <Link href="/project-details">Complete Roof Replacement</Link>
                                     </h4>
@@ -99,7 +99,7 @@ export default function TestimonialSlider0() {
                                     </Link>
                                 </div>
                                 <div className="portfolio__block">
-                                    <span>Repair Service</span>
+                                    <span>Repair Service — Pawtucket, RI</span>
                                     <h4>
                                         <Link href="/project-details">Emergency Storm Repair</Link>
                                     </h4>
@@ -125,7 +125,7 @@ export default function TestimonialSlider0() {
                                     </Link>
                                 </div>
                                 <div className="portfolio__block">
-                                    <span>Commercial</span>
+                                    <span>Commercial — Cranston, RI</span>
                                     <h4>
                                         <Link href="/project-details">Flat Roof Restoration</Link>
                                     </h4>
@@ -151,7 +151,7 @@ export default function TestimonialSlider0() {
                                     </Link>
                                 </div>
                                 <div className="portfolio__block">
-                                    <span>New Construction</span>
+                                    <span>New Construction — Seekonk, MA</span>
                                     <h4>
                                         <Link href="/project-details">Premium Shingle Install</Link>
                                     </h4>
@@ -177,7 +177,7 @@ export default function TestimonialSlider0() {
                                     </Link>
                                 </div>
                                 <div className="portfolio__block">
-                                    <span>Maintenance</span>
+                                    <span>Maintenance — Providence, RI</span>
                                     <h4>
                                         <Link href="/project-details">Roof Inspection & Care</Link>
                                     </h4>
@@ -203,7 +203,7 @@ export default function TestimonialSlider0() {
                                     </Link>
                                 </div>
                                 <div className="portfolio__block">
-                                    <span>Renovation</span>
+                                    <span>Renovation — Taunton, MA</span>
                                     <h4>
                                         <Link href="/project-details">Historic Roof Restoration</Link>
                                     </h4>
@@ -229,7 +229,7 @@ export default function TestimonialSlider0() {
                                     </Link>
                                 </div>
                                 <div className="portfolio__block">
-                                    <span>Siding & Gutters</span>
+                                    <span>Siding & Gutters — Mansfield, MA</span>
                                     <h4>
                                         <Link href="/project-details">Exterior Protection</Link>
                                     </h4>
@@ -255,7 +255,7 @@ export default function TestimonialSlider0() {
                                     </Link>
                                 </div>
                                 <div className="portfolio__block">
-                                    <span>Projects</span>
+                                    <span>Projects — East Providence, RI</span>
                                     <h4>
                                         <Link href="/project-details">Custom Roofing Solutions</Link>
                                     </h4>

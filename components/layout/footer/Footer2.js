@@ -64,7 +64,7 @@ export default function Footer2() {
                                                         <span className="contact_label" >Service Area: </span>
                                                         <span className="contact_value">
                                                             <p className="text-white">
-                                                                Pawtucket · Cranston · East Providence · Central Falls
+                                                                Attleboro · Pawtucket · Cranston · East Providence · Central Falls
                                                                 Attleboro · North Attleborough · Seekonk · Taunton
                                                                 Mansfield · Easton · Rehoboth
                                                             </p>

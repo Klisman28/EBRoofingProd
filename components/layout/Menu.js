@@ -125,6 +125,12 @@ export default function Menu() {
                         <li><Link href="/blog-details">Blog Details</Link></li>
                     </ul>
                 </li>
+                <li className=""><Link href="#">Service Areas</Link>
+                    <ul>
+                        <li><Link href="/service-areas/massachusetts">Massachusetts</Link></li>
+                        <li><Link href="/service-areas/rhode-island">Rhode Island</Link></li>
+                    </ul>
+                </li>
                 <li><Link href="/contact"> Contact </Link></li>
             </ul>
         </>

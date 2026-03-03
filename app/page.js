@@ -51,6 +51,7 @@ const jsonLd = {
     currenciesAccepted: 'USD',
     address: {
         '@type': 'PostalAddress',
+        addressLocality: 'Attleboro',
         addressRegion: 'MA',
         addressCountry: 'US',
     },

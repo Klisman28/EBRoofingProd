@@ -69,7 +69,15 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
                 {footerStyle == 2 ? < Footer2 /> : null}
             </div>
             <WhatsAppChat />
-            <BackToTop scroll={scroll} />
+            {/* Sticky Mobile CTA */}
+            <div className="mobile-sticky-cta d-md-none" style={{ position: 'fixed', bottom: 0, left: 0, width: '100%', display: 'flex', zIndex: 999 }}>
+                <a href="tel:+17743001932" style={{ flex: 1, backgroundColor: '#ff5c00', color: '#fff', textAlign: 'center', padding: '15px 0', fontSize: '16px', fontWeight: 'bold' }}>
+                    <i className="fa fa-phone p_right" /> Call Now
+                </a>
+                <a href="/contact" style={{ flex: 1, backgroundColor: '#222', color: '#fff', textAlign: 'center', padding: '15px 0', fontSize: '16px', fontWeight: 'bold' }}>
+                    Free Estimate <i className="fa fa-angle-right" />
+                </a>
+            </div>
         </>
     )
 }

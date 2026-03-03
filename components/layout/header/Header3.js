@@ -14,7 +14,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
               <div className="header_top">
                 <div className="header_top_left">
                   <ul className="top_left">
-                    <li>Based in Pawtucket, RI</li>
+                    <li>Based in Attleboro, MA</li>
                     <li>
                       <Link href="mailto:info@example.com">E_broofing@yahoo.com</Link>
                     </li>

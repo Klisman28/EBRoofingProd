@@ -62,6 +62,13 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                                     </ul>
                                     <div className={isActive.key == 5 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(5)}><span className="fa fa-angle-right" /></div>
                                 </li>
+                                <li className={isActive.key == 6 ? "dropdown current" : "dropdown"}><Link href="#" onClick={handleMobileMenu}>Service Areas</Link>
+                                    <ul style={{ display: `${isActive.key == 6 ? "block" : "none"}` }}>
+                                        <li><Link href="/service-areas/massachusetts" onClick={handleMobileMenu}>Massachusetts</Link></li>
+                                        <li><Link href="/service-areas/rhode-island" onClick={handleMobileMenu}>Rhode Island</Link></li>
+                                    </ul>
+                                    <div className={isActive.key == 6 ? "dropdown-btn open" : "dropdown-btn"} onClick={() => handleToggle(6)}><span className="fa fa-angle-right" /></div>
+                                </li>
                                 <li><Link href="/contact" onClick={handleMobileMenu}>Contact</Link></li>
                             </ul>
                         </div>
@@ -69,7 +76,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                     <div className="contact-info">
                         <h4>Contact Info</h4>
                         <ul>
-                            <li>Pawtucket, Rhode Island
+                            <li>Attleboro, Massachusetts
                                 (Serving MA & RI)</li>
                             <li>
                                 <Link href="tel:+7743001932"> (774) 300-1932</Link>

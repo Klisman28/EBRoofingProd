@@ -66,7 +66,7 @@ export default function Banner() {
                           ROOFING CONTRACTOR IN <span>MASSACHUSETTS & RHODE ISLAND </span>
                         </h1>
                         <p>
-                          At <strong>E&amp;B ROOFING LLC</strong>, we provide professional roof replacement and roof repair for homes and businesses in Pawtucket, Cranston, East Providence, Attleboro and surrounding areas.
+                          At <strong>E&amp;B ROOFING LLC</strong>, we provide professional roof replacement and roof repair for homes and businesses in Attleboro, Pawtucket, Cranston, East Providence, and surrounding areas.
                         </p>
 
                         <div className="btn-box">

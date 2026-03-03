@@ -158,7 +158,7 @@ export default function ContactContent() {
                     <section className="google__map">
                         <div className="map__location">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47532.66779774635!2d-71.42878770742513!3d41.8795083162791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e4431a40306ee1%3A0xe54d24660252119d!2sPawtucket%2C%20RI!5e0!3m2!1sen!2sus!4v1672123672895"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94868.08383344654!2d-71.39850125740445!3d41.93604085449755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e46049a4f40f31%3A0xe53f5d94757c91fa!2sAttleboro%2C%20MA!5e0!3m2!1sen!2sus!4v1672123672895"
                                 width="100%"
                                 height="450"
                                 style={{ border: '0' }}

@@ -214,13 +214,13 @@ export default function AboutContent() {
                                                                 <h4>E&B ROOFING LLC is founded</h4>
                                                                 <div className="tab__text">
                                                                     <p>
-                                                                        Started as a small roofing crew helping homeowners in Pawtucket, RI with shingle roof repairs and replacements. From day one, our focus was simple: honest recommendations, clean job sites and work we’d be proud to put our name on.
+                                                                        Started as a small roofing crew helping homeowners in Attleboro, MA with shingle roof repairs and replacements. From day one, our focus was simple: honest recommendations, clean job sites and work we’d be proud to put our name on.
                                                                     </p>
                                                                 </div>
                                                                 <div className="tab__list">
                                                                     <ul>
                                                                         <li>
-                                                                            <span className="icon-21" /> Local residential shingle roofs in Pawtucket, RI
+                                                                            <span className="icon-21" /> Local residential shingle roofs in Attleboro, MA and RI
                                                                         </li>
                                                                         <li>
                                                                             <span className="icon-21" /> Owner on site for every project
@@ -257,7 +257,7 @@ export default function AboutContent() {
                                                                 <h4>From Roofing Only to Full Exterior Services</h4>
                                                                 <div className="tab__text">
                                                                     <p>
-                                                                        Started as a small roofing crew helping homeowners in Pawtucket, RI with shingle roof repairs and replacements. From day one, our focus was simple: honest recommendations, clean job sites and work we’d be proud to put our name on.
+                                                                        Started as a small roofing crew helping homeowners in Attleboro, MA with shingle roof repairs and replacements. From day one, our focus was simple: honest recommendations, clean job sites and work we’d be proud to put our name on.
                                                                     </p>
                                                                 </div>
                                                                 <div className="tab__list">
