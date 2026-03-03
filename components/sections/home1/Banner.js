@@ -4,6 +4,8 @@ import Link from "next/link"
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 
+import Image from "next/image"
+
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
   slidesPerView: 1,
@@ -40,11 +42,19 @@ export default function Banner() {
           <SwiperSlide className="slide-item">
             <div
               className="slide__item__content"
-              style={{ backgroundImage: "url(assets/images/banner/banner-6.jpg)" }}
+              style={{ position: 'relative' }}
             >
+              <Image
+                src="/assets/images/banner/banner-6.jpg"
+                alt="Roofing Contractor in MA & RI"
+                fill
+                sizes="100vw"
+                style={{ objectFit: 'cover', objectPosition: 'right', zIndex: -1 }}
+                priority
+              />
               <div
                 className="banner__left__content"
-                style={{ backgroundImage: "url(assets/images/shape/shape-16.png)" }}
+                style={{ backgroundImage: "url(/assets/images/shape/shape-16.png)" }}
               >
                 <div className="auto_container">
                   <div className="anim-icon">
@@ -84,11 +94,18 @@ export default function Banner() {
           <SwiperSlide className="slide-item">
             <div
               className="slide__item__content"
-              style={{ backgroundImage: "url(assets/images/banner/banner-1.jpg)" }}
+              style={{ position: 'relative' }}
             >
+              <Image
+                src="/assets/images/banner/banner-1.jpg"
+                alt="Siding Windows & Gutters"
+                fill
+                sizes="100vw"
+                style={{ objectFit: 'cover', objectPosition: 'right', zIndex: -1 }}
+              />
               <div
                 className="banner__left__content"
-                style={{ backgroundImage: "url(assets/images/shape/shape-39.png)" }}
+                style={{ backgroundImage: "url(/assets/images/shape/shape-39.png)" }}
               >
                 <div className="auto_container">
                   <div className="anim-icon">
@@ -128,11 +145,18 @@ export default function Banner() {
           <SwiperSlide className="slide-item">
             <div
               className="slide__item__content"
-              style={{ backgroundImage: "url(assets/images/banner/banner-2.jpg)" }}
+              style={{ position: 'relative' }}
             >
+              <Image
+                src="/assets/images/banner/banner-2.jpg"
+                alt="24/7 Emergency Roof Repair"
+                fill
+                sizes="100vw"
+                style={{ objectFit: 'cover', objectPosition: 'right', zIndex: -1 }}
+              />
               <div
                 className="banner__left__content"
-                style={{ backgroundImage: "url(assets/images/shape/shape-07.png)" }}
+                style={{ backgroundImage: "url(/assets/images/shape/shape-07.png)" }}
               >
                 <div className="auto_container">
                   <div className="anim-icon">

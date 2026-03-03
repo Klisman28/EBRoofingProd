@@ -2,6 +2,7 @@
 import Link from "next/link"
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
+import Image from "next/image"
 
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
@@ -59,8 +60,8 @@ export default function TestimonialSlider0() {
                 <SwiperSlide className="slide">
                     <div className="portfolio__block__one">
                         <div className="inner-box">
-                            <figure className="image-box">
-                                <img src="assets/images/resource/eb_roofing.jpg" alt="" />
+                            <figure className="image-box" style={{ position: 'relative', height: '250px' }}>
+                                <Image src="/assets/images/resource/eb_roofing.jpg" alt="Residential Roofing" fill sizes="(max-width: 768px) 100vw, 33vw" style={{ objectFit: 'cover' }} loading="lazy" />
                             </figure>
                             <div className="lower__content">
                                 <div className="view-btn">
@@ -85,8 +86,8 @@ export default function TestimonialSlider0() {
                 <SwiperSlide className="slide">
                     <div className="portfolio__block__one">
                         <div className="inner-box">
-                            <figure className="image-box">
-                                <img src="assets/images/resource/ebroofgin2.jpg" alt="" />
+                            <figure className="image-box" style={{ position: 'relative', height: '250px' }}>
+                                <Image src="/assets/images/resource/ebroofgin2.jpg" alt="Storm Repair" fill sizes="(max-width: 768px) 100vw, 33vw" style={{ objectFit: 'cover' }} loading="lazy" />
                             </figure>
                             <div className="lower__content">
                                 <div className="view-btn">
@@ -111,8 +112,8 @@ export default function TestimonialSlider0() {
                 <SwiperSlide className="slide">
                     <div className="portfolio__block__one">
                         <div className="inner-box">
-                            <figure className="image-box">
-                                <img src="assets/images/resource/ebroofing3.jpg" alt="" />
+                            <figure className="image-box" style={{ position: 'relative', height: '250px' }}>
+                                <Image src="/assets/images/resource/ebroofing3.jpg" alt="Commercial Roofing" fill sizes="(max-width: 768px) 100vw, 33vw" style={{ objectFit: 'cover' }} loading="lazy" />
                             </figure>
                             <div className="lower__content">
                                 <div className="view-btn">
@@ -137,8 +138,8 @@ export default function TestimonialSlider0() {
                 <SwiperSlide className="slide">
                     <div className="portfolio__block__one">
                         <div className="inner-box">
-                            <figure className="image-box">
-                                <img src="assets/images/resource/ebroofing4.jpg" alt="" />
+                            <figure className="image-box" style={{ position: 'relative', height: '250px' }}>
+                                <Image src="/assets/images/resource/ebroofing4.jpg" alt="New Construction Roofing" fill sizes="(max-width: 768px) 100vw, 33vw" style={{ objectFit: 'cover' }} loading="lazy" />
                             </figure>
                             <div className="lower__content">
                                 <div className="view-btn">
@@ -163,8 +164,8 @@ export default function TestimonialSlider0() {
                 <SwiperSlide className="slide">
                     <div className="portfolio__block__one">
                         <div className="inner-box">
-                            <figure className="image-box">
-                                <img src="assets/images/resource/ebroofing5.jpg" alt="" />
+                            <figure className="image-box" style={{ position: 'relative', height: '250px' }}>
+                                <Image src="/assets/images/resource/ebroofing5.jpg" alt="Roof Maintenance" fill sizes="(max-width: 768px) 100vw, 33vw" style={{ objectFit: 'cover' }} loading="lazy" />
                             </figure>
                             <div className="lower__content">
                                 <div className="view-btn">
@@ -189,8 +190,8 @@ export default function TestimonialSlider0() {
                 <SwiperSlide className="slide">
                     <div className="portfolio__block__one">
                         <div className="inner-box">
-                            <figure className="image-box">
-                                <img src="assets/images/resource/ebroofing6.jpg" alt="" />
+                            <figure className="image-box" style={{ position: 'relative', height: '250px' }}>
+                                <Image src="/assets/images/resource/ebroofing6.jpg" alt="Roof Renovation" fill sizes="(max-width: 768px) 100vw, 33vw" style={{ objectFit: 'cover' }} loading="lazy" />
                             </figure>
                             <div className="lower__content">
                                 <div className="view-btn">
@@ -215,8 +216,8 @@ export default function TestimonialSlider0() {
                 <SwiperSlide className="slide">
                     <div className="portfolio__block__one">
                         <div className="inner-box">
-                            <figure className="image-box">
-                                <img src="assets/images/resource/ebroofing7.jpg" alt="" />
+                            <figure className="image-box" style={{ position: 'relative', height: '250px' }}>
+                                <Image src="/assets/images/resource/ebroofing7.jpg" alt="Siding and Gutters" fill sizes="(max-width: 768px) 100vw, 33vw" style={{ objectFit: 'cover' }} loading="lazy" />
                             </figure>
                             <div className="lower__content">
                                 <div className="view-btn">
@@ -241,8 +242,8 @@ export default function TestimonialSlider0() {
                 <SwiperSlide className="slide">
                     <div className="portfolio__block__one">
                         <div className="inner-box">
-                            <figure className="image-box">
-                                <img src="assets/images/resource/ebroofing8.jpg" alt="" />
+                            <figure className="image-box" style={{ position: 'relative', height: '250px' }}>
+                                <Image src="/assets/images/resource/ebroofing8.jpg" alt="Custom Roofing Solutions" fill sizes="(max-width: 768px) 100vw, 33vw" style={{ objectFit: 'cover' }} loading="lazy" />
                             </figure>
                             <div className="lower__content">
                                 <div className="view-btn">
