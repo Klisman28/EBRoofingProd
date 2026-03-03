@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /tmp/
+
+# Block common attack paths
+Disallow: /wp-admin/
+Disallow: /wp-content/
+Disallow: /wp-includes/
+Disallow: /.git/
+Disallow: /.env
+
+Sitemap: https://www.ebroofingma.net/sitemap.xml

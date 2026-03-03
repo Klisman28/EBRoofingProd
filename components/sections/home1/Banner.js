@@ -159,8 +159,6 @@ export default function Banner() {
                         </p>
                         <div className="btn-box">
                           <Link href="tel:+774-300-1932" className="btn-two">
-                            REQUEST EMERGENCY HELP
-                            o
                             CALL NOW                          </Link>
                         </div>
                       </div>
