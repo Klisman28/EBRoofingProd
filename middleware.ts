@@ -2,34 +2,45 @@ import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
 export function middleware(request: NextRequest) {
-    const host = request.headers.get('host')
+    const { headers, nextUrl } = request
 
-    // Solo redirigir si el host es exactamente 'ebroofingma.net' (sin www)
-    if (host === 'ebroofingma.net') {
-        const url = request.nextUrl.clone()
+    // Leer host y proto reales (detrás de proxy Hostinger)
+    const forwardedHost = headers.get('x-forwarded-host') ?? headers.get('host') ?? ''
+    const forwardedProto = headers.get('x-forwarded-proto') ?? 'https'
 
-        // Construir la nueva URL con www, preservando path y search
-        url.host = 'www.ebroofingma.net'
+    // Normalizar: tomar primer valor si hay lista separada por comas
+    const host = forwardedHost.split(',')[0].trim()
+    const proto = forwardedProto.split(',')[0].trim()
 
-        // 308 Permanent Redirect (preserva el método HTTP)
+    const needsWww = host === 'ebroofingma.net'
+    const needsHttps = proto !== 'https'
+
+    if (needsWww || needsHttps) {
+        const targetProto = 'https'
+        const targetHost = needsWww ? 'www.ebroofingma.net' : host
+        const url = nextUrl.clone()
+
+        url.protocol = targetProto + ':'
+        url.host = targetHost
+
+        // 308 Permanent Redirect — preserva método HTTP y body
         return NextResponse.redirect(url, { status: 308 })
     }
 
-    // No hacer nada si ya tiene www o es otro dominio
     return NextResponse.next()
 }
 
-// Configuración del matcher para excluir archivos estáticos y rutas Next.js internas
 export const config = {
     matcher: [
         /*
-         * Match all request paths except for the ones starting with:
-         * - _next/static (static files)
-         * - _next/image (image optimization files)
-         * - favicon.ico (favicon file)
-         * - public folder files (assets)
-         * - api routes (if you have any)
+         * Aplica a todas las rutas EXCEPTO:
+         *  - _next/static  (assets compilados)
+         *  - _next/image   (optimización de imágenes)
+         *  - favicon.ico, apple-touch-icon, favicon-*
+         *  - assets/       (carpeta pública)
+         *  - api/          (rutas API)
+         *  - archivos con extensión estática conocida
          */
-        '/((?!_next/static|_next/image|favicon.ico|assets|api).*)',
+        '/((?!_next/static|_next/image|favicon|apple-touch|assets|api|robots\\.txt|sitemap\\.xml|.*\\.(?:css|js|png|jpg|jpeg|gif|svg|ico|webp|avif|woff2?|ttf|eot|map|txt|xml)).*)',
     ],
 }

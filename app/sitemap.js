@@ -1,69 +1,73 @@
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.ebroofingma.net'
 
+/** @type {import('next').MetadataRoute.Sitemap} */
 export default function sitemap() {
+    const now = new Date()
+
     return [
         {
-            url: 'https://www.ebroofingma.net',
-            lastModified: new Date(),
-            changeFrequency: 'yearly',
-            priority: 1,
+            url: `${SITE_URL}`,
+            lastModified: now,
+            changeFrequency: 'monthly',
+            priority: 1.0,
         },
         {
-            url: 'https://www.ebroofingma.net/about',
-            lastModified: new Date(),
+            url: `${SITE_URL}/about`,
+            lastModified: now,
             changeFrequency: 'monthly',
             priority: 0.8,
         },
         {
-            url: 'https://www.ebroofingma.net/services',
-            lastModified: new Date(),
-            changeFrequency: 'weekly',
-            priority: 0.8,
-        },
-        {
-            url: 'https://www.ebroofingma.net/contact',
-            lastModified: new Date(),
-            changeFrequency: 'yearly',
-            priority: 0.5,
-        },
-        {
-            url: 'https://www.ebroofingma.net/privacy-policy',
-            lastModified: new Date(),
-            changeFrequency: 'yearly',
-            priority: 0.3,
-        },
-        {
-            url: 'https://www.ebroofingma.net/terms',
-            lastModified: new Date(),
-            changeFrequency: 'yearly',
-            priority: 0.3,
-        },
-        {
-            url: 'https://www.ebroofingma.net/accessibility',
-            lastModified: new Date(),
-            changeFrequency: 'yearly',
-            priority: 0.3,
-        },
-        {
-            url: 'https://www.ebroofingma.net/project-2',
-            lastModified: new Date(),
+            url: `${SITE_URL}/services`,
+            lastModified: now,
             changeFrequency: 'monthly',
+            priority: 0.9,
+        },
+        {
+            url: `${SITE_URL}/contact`,
+            lastModified: now,
+            changeFrequency: 'yearly',
             priority: 0.8,
         },
         {
-            url: 'https://www.ebroofingma.net/testimonial-2',
-            lastModified: new Date(),
+            url: `${SITE_URL}/project-2`,
+            lastModified: now,
+            changeFrequency: 'monthly',
+            priority: 0.7,
+        },
+        {
+            url: `${SITE_URL}/testimonial-2`,
+            lastModified: now,
             changeFrequency: 'monthly',
             priority: 0.6,
         },
         {
-            url: 'https://www.ebroofingma.net/blog-standard',
-            lastModified: new Date(),
+            url: `${SITE_URL}/blog-standard`,
+            lastModified: now,
             changeFrequency: 'weekly',
-            priority: 0.7,
+            priority: 0.6,
         },
         {
-            url: 'https://www.ebroofingma.net/accessibility',
-            lastModified: new Date(),
+            url: `${SITE_URL}/blog-grid`,
+            lastModified: now,
+            changeFrequency: 'weekly',
+            priority: 0.5,
+        },
+        {
+            url: `${SITE_URL}/privacy-policy`,
+            lastModified: now,
+            changeFrequency: 'yearly',
+            priority: 0.3,
+        },
+        {
+            url: `${SITE_URL}/terms`,
+            lastModified: now,
+            changeFrequency: 'yearly',
+            priority: 0.3,
+        },
+        {
+            url: `${SITE_URL}/accessibility`,
+            lastModified: now,
             changeFrequency: 'yearly',
             priority: 0.3,
         },
