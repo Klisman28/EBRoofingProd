@@ -1,30 +1,32 @@
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
+const CANONICAL_HOST = 'www.ebroofingma.net'
+
 export function middleware(request: NextRequest) {
     const { headers, nextUrl } = request
 
-    // Leer host y proto reales (detrás de proxy Hostinger)
-    const forwardedHost = headers.get('x-forwarded-host') ?? headers.get('host') ?? ''
-    const forwardedProto = headers.get('x-forwarded-proto') ?? 'https'
+    // 1) Host/proto reales (detrás de proxy)
+    const forwardedHost = (headers.get('x-forwarded-host') ?? headers.get('host') ?? '')
+        .split(',')[0]
+        .trim()
+        .toLowerCase()
 
-    // Normalizar: tomar primer valor si hay lista separada por comas
-    const host = forwardedHost.split(',')[0].trim()
-    const proto = forwardedProto.split(',')[0].trim()
+    const forwardedProto = (headers.get('x-forwarded-proto') ?? 'http')
+        .split(',')[0]
+        .trim()
+        .toLowerCase()
 
-    const needsWww = host === 'ebroofingma.net'
-    const needsHttps = proto !== 'https'
+    // 2) Quitar puerto si viene (":3000")
+    const hostname = forwardedHost.split(':')[0]
 
-    if (needsWww || needsHttps) {
-        const targetProto = 'https'
-        const targetHost = needsWww ? 'www.ebroofingma.net' : host
-        const url = nextUrl.clone()
+    const needsHttps = forwardedProto !== 'https'
+    const needsCanonicalHost = hostname !== CANONICAL_HOST
 
-        url.protocol = targetProto + ':'
-        url.host = targetHost
-
-        // 308 Permanent Redirect — preserva método HTTP y body
-        return NextResponse.redirect(url, { status: 308 })
+    // 3) Redirección SIEMPRE a https + www (sin puerto)
+    if (needsHttps || needsCanonicalHost) {
+        const location = `https://${CANONICAL_HOST}${nextUrl.pathname}${nextUrl.search}`
+        return NextResponse.redirect(location, 308)
     }
 
     return NextResponse.next()
@@ -32,15 +34,6 @@ export function middleware(request: NextRequest) {
 
 export const config = {
     matcher: [
-        /*
-         * Aplica a todas las rutas EXCEPTO:
-         *  - _next/static  (assets compilados)
-         *  - _next/image   (optimización de imágenes)
-         *  - favicon.ico, apple-touch-icon, favicon-*
-         *  - assets/       (carpeta pública)
-         *  - api/          (rutas API)
-         *  - archivos con extensión estática conocida
-         */
         '/((?!_next/static|_next/image|favicon|apple-touch|assets|api|robots\\.txt|sitemap\\.xml|.*\\.(?:css|js|png|jpg|jpeg|gif|svg|ico|webp|avif|woff2?|ttf|eot|map|txt|xml)).*)',
     ],
 }
